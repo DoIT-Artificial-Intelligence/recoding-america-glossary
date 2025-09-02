@@ -1,2 +1,2 @@
 # recoding-america-glossary
-Not afflicted with the Recoding America book
+Not affiliated with the Recoding America book
