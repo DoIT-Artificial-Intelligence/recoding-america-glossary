@@ -1,4 +1,5 @@
 User:
+
 The image is a screenshot of a hand written glossary for the Recoding America by Jennifer Pahlka. Can you Extract the hand written text to a csv with columns "Acronym" and "Expansion". It should look like:
 ```csv
 Acronym, Expansion
@@ -15,6 +16,7 @@ RAP, Records of arrests and prosecutions
 ```
 
 Response:
+
 Acronym,Expansion
 GSA,General Services Administration
 CMS,Centers for Medicare and Medicaid Services
@@ -43,9 +45,11 @@ FCC,Federal Communications Commission
 [This ideally should have just exported a csv file so I continued the conversation]
 
 User:
+
 Use python to do this
 
 Response:
+
 # 1. Define the data as a multi-line string
 # Using triple quotes (""") allows the string to span multiple lines easily.
 csv_data = """Acronym,Expansion
